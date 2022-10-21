@@ -1,0 +1,38 @@
+- Ronald Fischer 1925 - Father of modern statistics
+- random assignments to test whether particular medical interventions had some effect.
+- 1 st: RCT = Randomized Control Trials
+- The use of randomized control trials to make medicine more effective and efficient.
+
+- Ofqual’s algorithm: Grading in UK - 39%
+
+ETHICS GUIDELINES FOR TRUSTWORTHY AI
+------------------------------------
+- Human agency and oversight
+- Technical Robustness and safety
+- Privacy and data governance
+- Transparency
+- Diversity, non-discrimination and fairness
+- Societal and env. well-being
+- Accountability
+
+- The conversion rate, p, is calculated by observing a binomial random variable [conversion or non-conversion].
+
+p = m/n
+
+- To avoid doing repeated experiments, we use the standard error to quantify how much deviation from average conversion rate, p, can be expected if this experiment is repeated multiple times.
+
+- The z-score measures the number of standard deviations between the control and test variation mean values.
+
+- Based on a standard normal distribution, the result is significant when the z-score is far into either the left or right tail of the distribution.
+
+- Statistical significance is reached when the confidence is above 95%.
+
+- Communicating confidence: Error bars provide a means of communicating the potential range of values that are likely to be associated with a particular estimate.
+
+Quantifying Confidence
+----------------------
+• Simulating data
+• Error bars
+• Standard error
+• Confidence intervals
+• Prediction intervals

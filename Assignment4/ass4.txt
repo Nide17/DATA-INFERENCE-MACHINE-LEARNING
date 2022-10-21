@@ -1,0 +1,9 @@
+1) scipy.stats.linregress(x,y)  => Get all info
+2) corr = corr() 
+- the correlation btn all variables.
+
+b) linear regr. model
+- stepwise function: feature selection
+- the lower BIC, the better model
+
+3)

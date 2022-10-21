@@ -1,0 +1,90 @@
+REPORTS:
+COMMUNICATE INSIGHTS FROM THE GRAPH
+
+FEEDBACK
+- ANNOTATE
+- MESSAGE
+- GRAPH TITLE 
+
+PANDAS VS NUMPY
+DOT VS SQUARE BRACKET
+SERIES VS DATAFRAME VS ARRAY VS LISTS IN PANDAS
+
+PANDAS INTERPOLATION 
+--------------------
+- Pandas dataframe.interpolate() function is basically used to fill NA values in the dataframe or series. 
+
+NUMPY INTERPOLATION
+-------------------
+- One-dimensional linear interpolation for monotonically increasing sample points. Returns the one-dimensional piecewise linear interpolant to a function with given discrete data points (xp, fp), evaluated at x.
+
+
+
+2014-03-27 00:00:00
+2014-06-13 00:00:00
+2014-07-15 00:00:00
+2014-08-12 00:00:00
+2014-09-12 00:00:00
+
+
+- DataFrame.set_index: Set the DataFrame index using existing columns.
+- DataFrame.reset_index : Opposite of set_index.
+- DataFrame.reindex : Change to new indices or expand indices.
+- DataFrame.reindex_like : Change to same indices as other DataFrame.
+
+2) v(t) = v(0)exp -at :exponential
+
+4) monthly payment installments
+- Loan repayment formula
+- the period in months
+
+5) 
+break even point: day to regain an investment
+- 100
+
+day2 = 101*101    2010
+- ACCUMULATE!!!!!!
+
+
+6) Missing dates=interpolation
+
+1st value gt 100, 500 ...
+
+7) calculate growth rates
+then their means
+
+8) ratio of avg cases to death x/y
+- mean of the ratio, plot it
+
+9) normalization: scaling while keeping values
+
+10) stocks
+today - previous
+
+
+Submission
+----------
+.ipynb
+
+1. folder parmenin
+2. put in your code and zip
+3. the report does not go in zipping
+4. parmenin_DIML_ASS1.PDF
+
+
+normalize: 10/10*100
+- start by 100 on all columns
+- take the first row and divide with first times 100
+- both columns
+
+
+- growth rates: u need only two values
+- D change/original value(previous)
+- change: increase or decrease: 150-100/100 * 100
+- do it on each column
+
+
+-returns: 150/100(prev) - 1 * 100
+
+pctchange formula for this
+nanmean function in python don't use it

@@ -1,0 +1,61 @@
+4) So p(t) is the average house price? Yes
+
+- House prices
+
+
+5) 
+
+The cumulative sum for each return
+
+
+
+how to get the "lines that would correspond to a statistically significant result at p<0.05" in Q4? is it p = 1.96/length of the dataset?
+
+- +/- 1.96 / sqrt(n)
+
+PIAZZA
+------
+Q2.
+
+Do we just 'estimate' or directly calculate the correlation coefficient?
+- You have to calculate it.
+
+Q4
+use the Average House Price column for the y-axis
+
+- Can I use the statsmodels library for ACF? YES
+
+
+Q5
+- What does the average annualized return from the FTSE100 mean?
+- https://www.investopedia.com/terms/a/aar.asp#:~:text=The%20average%20annual%20return%20%28AAR%29%20is%20a%20percentage%20that%20represents,the%20fund's%20long%2Dterm%20performance.
+
+When you are normalizing do you consider the sign of the value you diving with or only magnitude?
+- The value you are using to normalize is positive so there is no need to consider the sign of the value.
+
+
+
+SOME EXPLANATIONS
+-----------------
+
+- The t-statistic is a measure of the difference between the two sets expressed in units of standard error. 
+
+- A normal distribution has a probability distribution that is centered around the mean
+
+- The Standard Error of the Mean (SEM) describes how far a sample mean varies from the actual population mean.
+-The standard error of the mean is a way to measure how spread out values are in a dataset.
+	Standard error of the mean = s / √n
+
+- Standard deviation is a number that describes how spread out the values are.
+
+- Variance is another number that indicates how spread out the values are.
+
+- Variance is the average squared deviations from the mean, while standard deviation is the square root of this number. 
+
+
+- The one-sample t-test is a statistical hypothesis test that can be used to see if the mean of an unknown population differs from a given or known value.
+
+	- null hypothesis: the mean of the areas is 5000.
+	- alternative hypothesis: the mean of the areas is not  5000.
+-To perform one-sample t-test we will use the scipy.stats.ttest_1samp() function to perform one- sample t-test
+- The one-sample t-test is a statistical hypothesis test used to determine whether an unknown population mean is different from a specific value.

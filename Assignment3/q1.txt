@@ -1,0 +1,14 @@
+- Null and alternative hypotheses are used in statistical hypothesis testing. 
+
+- The null hypothesis of a test always predicts no effect or no relationship between variables, 
+while the alternative hypothesis states your research prediction of an effect or relationship.
+
+- A null hypothesis is what, the researcher tries to disprove whereas an alternative hypothesis is what the researcher wants to prove. 
+=======================================================================================
+
+- Normal distribution, also known as the Gaussian distribution, is a probability distribution that is symmetric about the mean, showing that data near the mean are more frequent in occurrence than data far from the mean.
+
+
+===========================================
+- A t-test is a statistical test that compares the means of two samples.
+- It is used in hypothesis testing, with a null hypothesis that the difference in group means is zero and an alternate hypothesis that the difference in group means is different from zero.

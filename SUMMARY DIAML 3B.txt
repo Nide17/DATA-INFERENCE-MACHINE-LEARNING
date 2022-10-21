@@ -1,0 +1,43 @@
+MAKING DATA VISUALLY ACCESSIBLE
+------------------------------------------------
+- Select sensible units so that nbrs. are rel. small
+- Small nbrs. are easy to visualize
+- Use ratios if normalization is appropriate
+- Use rates if there is need to comm. speed of change
+
+WHY MAKE DATA VISUAL
+--------------------------------
+- To comm. info clearly and efficiently to users via graphics
+- To stimulate viewer engag. and attention.
+- To help users in analy. and reason. about data and evidence.
+- To make complex data access. understand. usable.
+
+DATA VISUALIZATION
+----------------------------
+- Tables allows to lookup for specific measure of a variable
+- Charts shows patterns or relationships in data!
+- Spatiotemporal data is the most challenging
+
+DASHBOARD
+----------------
+- Screen that displays info
+- Provides overview, most important data, insights, functions and controls.
+- Help to be more efficient and fac. dec. making.
+
+VISUAL DISPLAY OF QUANT. INFO.
+-------------------------------------------
+Excellence in statistical graphics consists of complex ideas communicated with clarity, precision and efficiency.
+
+GRAPHICAL DISPLAY SHOULD:
+--------------------------------------
+- Show the data
+- Induce the viewer to think about meth. design. tech. 
+- Avoid distorting what the data said
+- Present many nbrs. in small space
+- Make large data sets coherent
+- Encourage the eye to compare
+- Reveal the data at several levels details
+- Serve a reasonably clear purpose
+- Be closely integrated with statistical dataset
+
+INFOGRAPHICS: Visual repr. of info. or data

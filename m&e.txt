@@ -1,0 +1,10 @@
+- Monitoring and evaluation (M&E) is a process that helps improve performance and achieve results.
+- Inputs -> Activities -> Outputs -> Outcomes -> Impacts
+
+Trustworthy AI
+--------------
+1- Lawful
+2- Ethical
+3- Robust
+
+- Hypothesis testing is the use of statistics to determine the probability that a given hypothesis is true.

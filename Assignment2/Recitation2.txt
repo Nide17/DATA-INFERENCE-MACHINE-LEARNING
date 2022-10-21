@@ -1,0 +1,50 @@
+SOMETHING AGAINST2, OTHER: OTHER = X, SOMETHING = Y
+
+Q1.
+
+- Each region must have its color
+- region loop, no repeat
+
+- regions: Think of the grouping concept.
+- The scatter points will be marked where there are values and ignored where there are no values.
+
+
+Q2.
+
+- Date synchronization: they both have to start with the same date.
+- for question 2, as you said we have to have data set on the same date it means the same year, month, and date?
+- If there is a time period when we only have wheat's price, should we drop it or not?
+
+- Make sure to synchronize the data which means you only use the time period when all three commodities have values. That will remove a lot of the zero values that you are talking about.
+- No interpolation
+
+
+Q3.21
+
+- Don't drop Nan, check for a function to calculate statistics, it is there, no need of dropping nan values for this.
+
+Q4. Provide inferences!
+
+- From the way it looks, should it be for 1990 and 2010 or between 1990 to 2010? 
+
+- As I know, cumulative distributions need a range of values, not two independent columns.
+
+- I think we need to plot for the individual years 1990 and 2010. We can take the individual fertility rates for each of the years, sort them, and then plot them as a CDF. This will give 2 CDF curves, one for 1990 and the other for 2010.
+
+- Also, remember to indicate means and medians on the same graph (you can do this using vertical lines).
+
+Q5. 
+
+- CPI "against" HPI
+- use the Complete HPI datasheet
+
+
+
+REPORT
+------
+- Steps, Results, and Insights
+- Provide analysis in reports
+- Graphs observations
+- Don’t include your codes in a report!
+- Comment every line in the codes
+

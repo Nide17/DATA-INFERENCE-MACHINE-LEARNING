@@ -1,0 +1,12 @@
+STEPWISE REGRESSION
+-----------------------------
+
+Backward elimination:
+
+First, we set a significance level (usually alpha = 0.05). 
+
+Second, we perform multiple linear regression with the features and obtain the coefficients for each variable. 
+
+Third, we find the feature with the highest p-value.
+
+Fourth, we check if p-value > alpha; if yes, we remove the variable and proceed back to step 2; if no, we have reached the end of backward elimination.

@@ -1,0 +1,23 @@
+A model is simply a caricature of reality.
+
+Predictive analytics due to the availability of data,
+computational resources and machine
+learning/statistical techniques
+
+- Predictive analytics help
+organizations understand trends
+and patterns in human activity
+• Facilitating the identification of
+relationships between explanatory
+variables and key performance
+indicators (sales, profit, risk
+reduction, efficiency)
+• Having impacts on finance,
+insurance, energy, healthcare,
+government,…
+
+Decision-making by human experts is often referred to as discretionary or
+judgmental.
+
+Decision-making by machines is often referred to as automated, systematic or
+algorithmic.

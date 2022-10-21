@@ -1,0 +1,23 @@
+CORR
+# Merging the two data sets
+gdpPCfertRatMerged = pd.merge(gdpPCExtracted, fertRateExtracted, on = 'Country Name')
+
+gdpPCfertRatMergedNaN = gdpPCfertRatMerged.dropna() # Dropping rows having nan values
+
+# A correlation coefficient is a number between -1 and 1 that tells you the strength and direction of a relationship between variables.
+# how similar the measurements of two or more variables are across a dataset. 
+# When one variable changes, the other variables change in the same direction. 
+# A linear correlation coefficient that is greater than zero indicates a positive relationship. 
+# A value that is less than zero signifies a negative relationship.
+# zero indicates no relationship between the two variables x and y.
+# Calculating the coefficient of correlation
+
+correlationCoefficient = np.corrcoef(gdpPCfertRatMergedNaN['2013_x'], gdpPCfertRatMergedNaN['2013_y'])
+print(correlationCoefficient)
+gdpPCfertRatMergedNaN['2013_x']
+
+t = ( x̄1 – x̄2) / √ [(s1^2 / n 1 ) + (s2^2 / n 2 )]
+
+
+https://www.geeksforgeeks.org/autocorrelation-plot-using-matplotlib/
+

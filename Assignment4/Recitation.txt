@@ -1,0 +1,93 @@
+OBJECTIVE: MODEL BUILDING
+-------------------------------------
+
+- Independent research
+- Come with assumption, make hypothesis then perform statistical tests and analysis and come up with the results.
+
+Q1.
+- linregress in pyton - how it fit your model
+- function for corr. coeff.
+- Analyze the corr. coeff.
+- t-test and p-value and comment on them.
+
+Q2.
+- college.csv - US unis. - take only needed
+- corr. coeff. func.
+- stepwise on independent var
+- identify useful predictor and why.
+- extract 5 variable. model selects the best var to be used
+- use BIC - criteria for model selection
+- comment on the answers. why do consider them as useful vars.
+ 
+Q3. 
+- worldbank. tip.
+- download 2 datasets on world bank. related to the the problem
+- assumptions: - increase in GDP should have caused increase on fertility rate
+- stat. analy. : t-test and p-value.
+- accept and reject.
+- predict for 2022. not 2021.
+- Not allowed to use that in the example.
+
+Q4.
+- PROCESS DATA: delete unuseful column, rows, datenum to convert to date
+- convert dates into numbers, useful to fit into model.
+- fit lin. reg model by using date as independent 
+- fitting: you shd be having x and y
+- predict the rate.
+- performance of the model: use MAPE
+
+
+
+
+From Adeline Musonera to Everyone 02:07 PM
+Yes
+From mruzvidz@andrew.cmu.edu to Everyone 02:10 PM
+Does it mater to use linear regression model from sklearn on question 1
+From Blessed to Everyone 02:10 PM
+are we using the monthly returns for the predictions?
+From Nana Ama Atombo-Sackey to Everyone 02:12 PM
+What  does stepwise linear regression mean?
+What does BIC also mean
+From Blessed to Everyone 02:12 PM
+@nana Bayesian information criteria
+From Nana Ama Atombo-Sackey to Everyone 02:13 PM
+Alright thanks @ blessed
+From S.Emmanuel to Everyone 02:13 PM
+Thank you @Blessed
+From (Zake) Zakeus Sinzabankabo to Everyone 02:13 PM
+You are free to use linear regression from your favourite library @mruzvidz
+From mruzvidz@andrew.cmu.edu to Everyone 02:14 PM
+Question2 For accuracy which metric to use r2 score, rmse etc
+From (Zake) Zakeus Sinzabankabo to Everyone 02:15 PM
+@Nana you can refer to the link below stepwise linear regression
+https://towardsdatascience.com/stepwise-regression-tutorial-in-python-ebf7c782c922
+From Nana Ama Atombo-Sackey to Everyone 02:16 PM
+Thank you
+From James to Everyone 02:18 PM
+could you please help to understand the kind of the assumptions , we have to take
+From Gilbert to Everyone 02:18 PM
+You said data should be in Transport?
+From (Zake) Zakeus Sinzabankabo to Everyone 02:19 PM
+That's right @Gilbert
+From Daniel K to Everyone 02:19 PM
+So if the null hypothesis happen to stand (is not rejected).Are we still required to predict the situation in 2022
+From mruzvidz@andrew.cmu.edu to Everyone 02:19 PM
+Question 3: the question is saying predict for 2021
+From (Zake) Zakeus Sinzabankabo to Everyone 02:20 PM
+@Daniel, Yes you still have to predict
+From Ishimwe Eric to Everyone 02:20 PM
+For Q3.Is it a must to download data from world bank, or we can find data sets from other sources?
+From (Zake) Zakeus Sinzabankabo to Everyone 02:22 PM
+@Eric, You are advised to use the data from world bank since they are the ones that can be trusted
+From Ishimwe Eric to Everyone 02:23 PM
+Thanks Zakeus
+From ualice@andrew.cmu.edu to Everyone 02:27 PM
+can you go through the question again if possible
+From (Zake) Zakeus Sinzabankabo to Everyone 02:32 PM
+@James, the assumptions vary based on the datasets you want to use. This is an open study and you will not be using similar datasets. So, you have to understand the data you are using first, it will help you know formulate your assumptions.
+From mruzvidz@andrew.cmu.edu to Everyone 02:33 PM
+datasets doesn't have 2021 data
+question3
+From (Zake) Zakeus Sinzabankabo to Everyone 02:45 PM
+@mruzvidz whether 2021 is there or not, you can still predict the situation in 2022
+@ Q2, you can use MAPE

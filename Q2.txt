@@ -1,0 +1,10 @@
+college = pd.read_csv('college.csv')           # Reading US college data from csv file
+collegeRenamed = college.rename(columns={'Unnamed: 0': 'Name'})           # Renaming the unnamed Name field in college
+collegeX = collegeRenamed[['Name', 'Apps', 'Enroll', 'Outstate', 'Top10perc', 'Top25perc' ]]
+collegeY = collegeRenamed[['Grad.Rate']]
+
+# A) calculating the correlation between several variables in a Pandas DataFrame, you can simpy use the .corr() function.
+corrCoff = collegeX.corr()
+print("The correlation coefficients of the 5 variables is:\n\n", corrCoff)
+
+# B) stepwise to build the linear regression model

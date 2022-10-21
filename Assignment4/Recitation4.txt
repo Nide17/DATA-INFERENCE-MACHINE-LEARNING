@@ -1,0 +1,111 @@
+- Sort the dataset from 1991 - 2016
+- 
+# Stepwise regression that uses a backwards elimination approach. This is where all variables are initially included, and in each step, the most statistically insignificant variable is dropped.
+
+2b)
+- BIC helps to know the useful ones.
+- LassoLarsIC: set criterion to be BIC: used to penelize some varibales: normalize set to false
+
+a) corr.matrix -> grad age also included
+b) stepwise: used to select variables, select some variables, 
+c) with stepwise model you build which variables returned
+d) fit model again
+e) compare: are you getting the same results
+
+--
+choose a metric for a linear model for predicting.
+
+
+
+
+Q3
+# Dataset reading
+airTransport = pd.read_csv('air-transport-freight-ton-km.csv') # https://ourworldindata.org/search?q=transport
+emission_co2 = pd.read_csv('co2-emissions-by-fuel-line.csv') # https://ourworldindata.org/emissions-by-fuel
+# freight.drop(['Indicator Name','Indicator Code'], axis=1, inplace=True)
+len(airTransport['Entity'][airTransport['Code'].notnull()].unique())
+len(airTransport['Entity'].unique()) 
+airTransport['Code'].unique()
+
+tr = np.sort(airTransport['Year'].unique())
+
+df1 = pd.DataFrame(airTransport)
+df1.transpose()
+df1
+
+newDf = pd.DataFrame()
+newDf['Countries'] = airTransport['Entity'][airTransport['Code'].notnull()].unique()
+airTransport1970 = airTransport[airTransport['Year'] == 1970]
+
+
+
+
+codes = airTransport['Code'].unique()
+
+cd2 = []
+for i in cd:
+    if type(i) == float:
+        print("Flot")
+        continue
+    cd2.append(type(i))    
+len(cd2)
+
+
+
+From Seth Abayo to Everyone 02:18 PM
+https://forms.gle/qYNQT82tTnJA2CWf8
+You can use the link above to vote
+From Samiratu Ntohsi to Everyone 02:18 PM
+https://forms.gle/qYNQT82tTnJA2CWf8
+From Yves Ngabonziza to Everyone 02:23 PM
+For Question 1 : since the FTSE report in organized from 2016 to 1991, is it wise to sort it to match the format of monthly dataset ?
+From Eugenia Mawuenya Akpo to Everyone 02:24 PM
+I am a bit confused about the question 2 process. especially for the d.
+From Yves Ngabonziza to Everyone 02:24 PM
+Yes
+From Muhammed Danso to Everyone 02:25 PM
+I don't understand Q2.F. Given a set of predictors corresponding to Carnegie Mellon University, what graduation rate value
+should the most accurate model predict?
+From Sanuratu Koroma to Everyone 02:25 PM
+for question 2 when doing the linear regression, and more than one column has a p value less than 0.05. which one will you choose
+From Gilbert to Everyone 02:25 PM
++1
+From Gentil NDANYUZWE to Everyone 02:25 PM
++1
+From Junias BONOU to Everyone 02:25 PM
++11
+From Martin MUKUNZI to Everyone 02:25 PM
++1
+From Ngabo Uwayo Didier to Everyone 02:25 PM
++1 
+From ualice@andrew.cmu.edu to Everyone 02:25 PM
++1
+From Vicky Uwase to Everyone 02:25 PM
++1
+From Joshua to Everyone 02:25 PM
++4
+From Ariane Shimirwa to Everyone 02:25 PM
++1
+From cgakindi@andrew.cmu.edu to Everyone 02:25 PM
++1
+From Noah Ir to Everyone 02:26 PM
++1
+From Junias BONOU to Everyone 02:26 PM
+@Nadia drop the piazza post right now, we'll comment
+From Nadia Lorraine Niyonsaba to Everyone 02:27 PM
+Right
+From sdakey@andrew.cmu.edu to Everyone 02:28 PM
+how is the stepwise linear regression different from the BIC
+From Seth Abayo to Everyone 02:29 PM
+Stepwise is more of feature selection whereas BIC it is more selecting best model from range of models
+From lbizima2@andrew.cmu.edu to Everyone 02:29 PM
+are we allowed to get data set from other websites than world bank indicator like Kaggle@question3
+From Seth Abayo to Everyone 02:30 PM
+@lbizima, as long as dataset are publicly available, you are good to go
+From lbizima2@andrew.cmu.edu to Everyone 02:30 PM
+ok thanks
+From Sanuratu Koroma to Everyone 02:31 PM
+oooh so we don't plot the linear regression models?
+From Seth Abayo to Everyone 02:34 PM
+@Mohammed, now you are predicting graduation rate but specifically to CMU
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LassoLarsIC.html  for LassoLarsIC

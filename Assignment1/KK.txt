@@ -1,0 +1,34 @@
+Question 6 
+
+dates values
+
+d = 0
+excDeathsDates = []
+
+while d < len(excDeaths):
+    deathDate = ebolaInterpolatedData[ebolaInterpolatedData['Death'] == excDeaths[d]]
+    deathDate = deathDate['Date']
+    
+    print(deathDate.iloc[0])                                                        # Printing 5 dates of ebola deaths
+    excDeathsDates.append(deathDate)                                                # Updating excDeathsDates list
+    d = d + 1
+
+
+
+or
+
+
+
+c = 0
+excCasesDates = []                                      # The list to store the dates the case exceed the thresholds
+
+while c < len(ebolaInterpolatedData['Cases']):    
+    if (ebolaInterpolatedData['Cases'][c] == excCases).any():
+        print(ebolaInterpolatedData['Date'][c])
+#     caseDate = ebolaInterpolatedData[ebolaInterpolatedData['Cases'] == excCases[c]]
+#     caseDate = caseDate['Date']
+
+    
+#     print(caseDate.iloc[0])                              # Printing 5 dates of ebola cases
+    excCasesDates.append(caseDate)                       # Updating excCasesDates list
+    c = c + 1

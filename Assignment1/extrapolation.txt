@@ -1,0 +1,17 @@
+# Extrapolation 
+startDateTLT = extractedTLT.Date[0]
+endDateTLT = extractedTLT.Date[len(extractedTLT) -1]
+
+startDateSPY = extractedSPY.Date[0]
+endDateSPY = extractedSPY.Date[len(extractedSPY) -1]
+
+dateRangeTLT = pd.date_range(start=startDateTLT, end=endDateTLT)
+dateRangeSPY = pd.date_range(start=startDateSPY, end=endDateSPY)
+
+extractedTLT.set_index('Date')
+extractedSPY.set_index('Date')
+
+extractedTLT.reindex(dateRangeTLT)
+extractedSPY.reindex(dateRangeSPY)
+
+extrapolatedTLT = extractedTLT.

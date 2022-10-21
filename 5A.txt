@@ -1,0 +1,20 @@
+TREND: - A fad, including fashion trends, or beauty trends
+
+-- Early warning systems aim to detect the formation of trends before some adverse event occurs:
+– Natural disasters
+– Terrorism events
+– Trending topics on Twitter
+
+- A moving average may be viewed as a convolution or a low-pass filter
+
+- The Sharpe ratio is a measure of the excess return (or risk premium) per unit of risk in an investment asset or a trading strategy
+
+- The variance ratio test assesses the null hypothesis that a univariate time series y is a random walk.
+
+Time series
+• Sampling frequency;
+• Trends;
+• Mean reversion;
+• Simple moving averages
+• Exponential moving averages
+• Persistence and DFA
