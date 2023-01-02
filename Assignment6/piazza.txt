@@ -1,0 +1,37 @@
+6.2
+
+1. decision tree and logistic regression
+2. use the same implementation from assignment 5 for the logistic regression model.
+3. You can use k-fold cross-validation that splits your training data according to the value of k. Do not use the test set for cross-validation
+4. pruning using max_depth
+5. CV: 10 folds is recommended
+
+6. Split_train_test: No need for that cross-validation handles that
+7. Graph:  sklearn's tree.plot_tree
+
+6.3
+---
+Can we use the accuracy of the cross-validation as the criterion of performance for 3.3?
+-> Yes, you can use the accuracy of the cross-validation and plot it against the number of neighbors.
+
+- This means the first tree might be too complicated but after pruning, it will probably be visible.
+
+You can use either LassoCV or Lasso to determine the optimum Lambda, in this case, the Lambda with the smallest MSE value is the optimum Lambda. You just have to check the parameter coefficients to know which features have been selected so it is up to you to use LassoCV or Lasso to do that.
+
+
+In the recitation, we said that the more lambda values the better. In MATLAB only 100 lambda values are used which is why we said a minimum of 100 lambda values would be better. This is a very good observation, as the lambda value becomes big the features are penalized more which means you will only have horizontal lines. Try to have more values closer to zero, using a log scale can help with this.
+
+I think we can use the data without splitting here since it is not mentioned that we are to use cross_validation
+
+I think this is a theory question (the comparison correlation thresholding and Lasso feature selection) and we do not have to practically implement it
+
+
+
+
+Unnecessary branches are pruned - those that do add no much value to it
+this can reduce the size of the tree and improve the accuracy of the tree's predictions
+
+cross-validation: uses all data for training and testing, takes time, 
+CV helps to evaluate the model performance
+
+K = number of nearest neighbors

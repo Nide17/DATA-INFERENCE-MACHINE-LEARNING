@@ -1,0 +1,18 @@
+*prefix is equivalent to prefix[0]
+
+incrementation
+pointer
+prefix++
+
+array
+index++
+
+bool is_prefix(const char *prefix, const char *str)
+{
+while(*prefix && *prefix == *str) {
+prefix++;
+str++;
+}
+
+return (*prefix == '\0');
+}
